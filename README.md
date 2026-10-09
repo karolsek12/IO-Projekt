@@ -7,3 +7,7 @@ IO-Projekt
 │   └── vision.md
 └── src/
 ```
+
+## Autorzy
+
+Zespół projektowy składa się z: Karola Sęka, Filipa Sajko i Bartosza Wójcika.
