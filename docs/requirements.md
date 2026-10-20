@@ -29,7 +29,7 @@ Każde wymaganie posiada unikalny identyfikator, np. `FR-01` lub `NFR-01`.
 
 | ID | Wymaganie |
 |---|---|
-| NFR-01 | System pozwala na dostęp do danych w czasie do 0.694202137 sekund. |
+| NFR-01 | System pozwala na dostęp do danych w czasie do 0.7 sekund. |
 | NFR-02 | Interfejs użytkownika spełnia wymagania WCAG 2.2 na poziomie AA.|
 | NFR-03 | System jest w stanie na jednoczesną obsługę 1000 użytkowników.|
 
