@@ -1,4 +1,4 @@
-# Dungeons n Dragons
+# Dungeons n Dudes 
 
 Rozgrywki Dungeons and Dragons lub innych gier RPG wymagają śledzenia złożonego stanu gry. Aplikacja ma służyć do zapisu informacji na temat bieżących sesji - posiadanych przedmiotów, statystyk postaci lub wydarzeń ze świata gry.
 
