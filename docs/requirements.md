@@ -20,7 +20,7 @@ Każde wymaganie posiada unikalny identyfikator, np. `FR-01` lub `NFR-01`.
 | FR-01 | Mistrz gry ma mieć możliwość utworzenia lobby i zaproszenia innych poprzez kod zaproszenia. |
 | FR-02 | Mistrz gry ma mieć możliwość wglądu i edycji całości stanu gry. |
 | FR-03 | Gracze nie mogą mieć możliwości wglądu w stan gry opisujący innych graczy. |
-| FR-04 | Gracze oraz mistrz gry mają mieć możliwość wglądu do streszczeń poprzednich rozgrywek (logów). |
+| FR-04 | Gracze oraz mistrz gry mają mieć możliwość wglądu do notatek na temat poprzednich rozgrywek. |
 | FR-05 | Gracze mają mieć możliwość wgrania i edycji stanu gry opisującego tylko ich postać. |
 | FR-06 | Użytkownicy mają mieć możliwość logowania za pomocą loginu i hasła. |
 | FR-07 | Gracze oraz mistrz gry mają mieć możliwość dodawania notatek na temat minionych rozgrywek. |

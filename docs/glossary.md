@@ -15,4 +15,4 @@ Pojęcia opisujemy językiem dziedziny, dla której tworzymy system, a nie języ
 | Sesja | Ciąg rozgrywek w ramach jednej kampanii. |
 | Stan gry | Zbiór informacji zapisywany po zakończeniu rozgrywki na temat postaci, przedmiotów i umiejętności (w zależności od konkretnej gry).|
 | Statystyki | Wartości opisujące postać gracza rozpoznawane przez system gry, w który grają gracze oraz mistrz gry.  |
-| Notatki (logi) | Informacja na temat minionej rozgrywki zapisana przez mistrza gry lub dowolnego z graczy. | 
+| Notatki | Informacja na temat minionej rozgrywki zapisana przez mistrza gry lub dowolnego z graczy. | 
