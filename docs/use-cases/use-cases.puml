@@ -1,0 +1,51 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+skinparam actorStyle awesome
+
+actor "Użytkownik" as User
+actor "Gracz" as Player
+actor "Mistrz Gry" as GM
+
+' Relacje dziedziczenia aktorów
+User <|-- Player
+User <|-- GM
+
+rectangle "System Dungeons n Dudes" {
+    ' Autentykacja
+    usecase "UC-01: Zaloguj się" as UC01
+
+    ' Zarządzanie lobby
+    usecase "UC-02: Utwórz lobby" as UC02
+    usecase "UC-03: Dołącz do lobby" as UC03
+
+    ' Karty postaci i statystyki
+    usecase "UC-04: Zarządzaj własną postacią" as UC04
+    usecase "UC-05: Przeglądaj statystyki wszystkich graczy" as UC05
+
+    ' Notatki i streszczenia
+    usecase "UC-06: Przeglądaj notatki z rozgrywek" as UC06
+    usecase "UC-07: Dodaj notatkę do rozgrywki" as UC07
+
+}
+
+' Przypisanie przypadków do aktorów
+
+
+Player --> UC03
+Player --> UC04
+
+GM --> UC02
+GM --> UC05
+
+' Przypadki wspólne dla Gracza i Mistrza Gry w ramach Lobby
+Player --> UC06
+GM --> UC06
+
+Player --> UC07
+GM --> UC07
+
+User --> UC01
+
+
+@enduml
