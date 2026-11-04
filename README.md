@@ -5,7 +5,7 @@
 ## Struktura
 
 ```text
-IO-zrojekt
+IO-Projekt
 ├── README.md
 ├── docs/
 │   ├── vision.md
